@@ -55,7 +55,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 programmer_hash[:dennis_ritchie][:languages].each_with_index {|i,a|"#{i[a]}"}
+		 programmer_hash[:dennis_ritchie][:languages].each_with_index {|i,a| puts "#{i[a]}"}
 end
 
 def adding_matz
